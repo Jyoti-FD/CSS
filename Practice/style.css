@@ -1,0 +1,14 @@
+.External{
+    background-color: darkgoldenrod;
+    color: hotpink;
+    font-size: 30px;
+}
+li{
+    list-style-type: none;
+}
+
+p{
+    background-color: darkgoldenrod;
+    color: hotpink;
+    font-size: 30px;
+}

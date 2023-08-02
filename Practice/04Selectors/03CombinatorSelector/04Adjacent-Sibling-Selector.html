@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adjacent Sibling Selector</title>
+    <style>
+        .lovelySingh+p{
+            color: blueviolet;
+            background-color: burlywood;
+            font-size: 30px;
+        }
+        h2+p+p{
+            color: fuchsia;
+            background-color: aquamarine;
+            font-size: 25px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Adjacent Sibling Selector</h1>
+    <!-- The adjacent sibling selector is used to select an element that is directly after another specific element. -->
+
+<!-- Sibling elements must have the same parent element, and "adjacent" means "immediately following". -->
+
+    <p>Lorem ipsum dolor sit amet consectetur.</p>
+    <p>Lorem ipsum dolor sit amet consectetur.</p>
+    <p>Lorem ipsum dolor sit amet consectetur.</p>
+    <p>Lorem ipsum dolor sit amet consectetur.</p>
+    <div class="lovelySingh">
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur.</p>
+    <p>Lorem ipsum dolor sit amet consectetur.</p>
+    <p>Lorem ipsum dolor sit amet consectetur.</p>
+    <h2>Chirag</h2>
+    <p>Shubham</p>
+    <p>komik</p>
+</body>
+</html>

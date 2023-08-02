@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descendant Selector</title>
+    <style>
+
+        .parant{
+            
+            color: lightgreen;
+            background-color: darkmagenta;
+            font-size: 30px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Descendant Selector</h1>
+    <!-- The descendant selector matches all elements that are descendants of a specified element. -->
+
+<!-- The following example selects all <p> elements inside <div> elements:  -->
+    <div class="parant">
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <div class="child">
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psudeo Element Selector</title>
+    <style>
+        h1{
+            color: aqua;
+            background-color: black;
+            font-size: 20px;
+        }
+        h1::before{
+            content: "~";
+        }
+        h1::after{
+            content:"!" ;
+        }
+        p::first-letter{
+            color: purple;
+            font-size: 40px;
+        }
+        p::selection{
+            color: beige;
+            background-color: chocolate;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Psudeo Element Selector</h1>
+    <!-- A CSS pseudo-element is used to style specified parts of an element. -->
+    <!-- Style the first letter, or line, of an element -->
+<!-- Insert content before, or after, the content of an element -->
+<p>A CSS pseudo-element is a keyword added to a selector that lets you style a specific part of the selected element(s). For example,
+     ::first-line can be used to apply styles to the first line of a paragraph.</p>
+</body>
+</html>
