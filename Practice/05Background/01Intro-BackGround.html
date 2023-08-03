@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Property In CSS</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        div{
+            height: 500px;
+            margin: 10px 0px;
+            color: black ;
+        }
+        .background-attachment{
+            border: 10px dashed darkturquoise;
+            background-image: url(../../Picture/green\ time.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            background-attachment: fixed;
+
+        }
+        .background-clip{
+            border: 10px dashed darkred;
+            background-image: url(../../Picture/krishu.png);
+            background-clip: border-box;
+            background-clip: padding-box;
+            background-clip: content-box;
+            padding: 100px;
+
+        }
+        .background-color{
+            border: 10px dashed darkblue;
+            
+            background-color: indianred;
+
+        }
+        .background-image{
+          border: 10px dashed darkslategrey;
+          color: aliceblue;
+          background-image: url(../../Picture/krishna.png);
+          background-repeat: no-repeat;
+          background-size: 500px;
+
+        }
+        .background-origin{
+            border: 10px dashed red;
+            background-image:url(../../Picture/krishu.png);
+            background-repeat: no-repeat;
+            background-clip: border-box;
+            background-clip: padding-box;                                                           
+            background-clip: content-box;
+            padding: 100px;
+            background-position: 50%;
+
+        }
+        .background-position{
+            border: 10px dashed darkgreen;
+            color: blue;
+            background-image: url(../../Picture/green\ time.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-size: 500px;
+            background-position: left;
+            background-position: right;
+            background-position: top;
+            background-position: bottom;
+            background-position: 30% 40%;
+
+        }
+        .background-repeat{
+            border: 10px dashed darkolivegreen;
+            background-image: url(../../Picture/panda.png);
+            background-image: url(../../Picture/green\ time.png);
+            background-repeat: repeat-x;
+            background-repeat: repeat-y;
+            background-repeat: space;
+            background-repeat: round;
+            background-repeat: no-repeat;
+            /* height: 1500px; */
+
+        }
+        .background-size{
+            border: 10px dashed darkslateblue;
+            color: black;
+            background-image: url(../../Picture/panda.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+            /* background-size: 50%; */
+            background-size: cover;
+        }
+        .Shorted-background{
+            border: 10px dashed greenyellow;
+            color: aliceblue;
+            background-image: url(../../Picture/krishna.png);
+        }
+        .Multiple-background{
+            border: 10px dashed black;
+            background-image: url(../../Picture/peacock.png),url(../../Picture/krishu.png);
+            background-repeat: no-repeat, no-repeat;
+            background-size: 150px, 550px;
+            background-position: 35%,center;
+
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Background Property In CSS</h1>
+    <!-- <p>The background shorthand CSS property sets all background style properties at once, such as color, image, origin and size, or repeat method.
+         Component properties not set in the background shorthand property value declaration are set to their default values.</p> -->
+         <ul>
+            <li>background-attachment</li>
+            <li>background-clip</li>
+            <li>background-color</li>
+            <li>background-image</li>
+            <li>background-origin</li>
+            <li>background-position</li>
+            <li>background-repeat</li>
+            <li>background-size</li> 
+         </ul>
+         <br>
+         <br>
+         <hr>
+         <br><br>
+         <div class="background-attachment">background-attachment </div>
+         <div class="background-clip">background-clip </div>
+         <div class="background-color">background-color </div>
+         <div class="background-image"> background-image</div>
+         <div class="background-origin">background-origin </div>
+         <div class="background-position">background-position </div>
+         <div class="background-repeat">background-repeat </div>
+         <div class="background-size">background-size </div>
+         <div class="Shorted-background">Shorted-background</div>
+         <div class="Multiple-background">Multiple-background</div>
+
+</body>
+</html>
