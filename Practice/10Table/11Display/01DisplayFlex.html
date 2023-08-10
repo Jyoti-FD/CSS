@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Flex</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            border: 1px solid black;
+        }
+        .container{
+            width: 90%;
+            margin: 0 auto;
+            border: 5px solid palevioletred;
+        }
+        img{
+            width: 100%;
+        }
+        .row{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 20px;
+            border: 5px solid darkturquoise;
+        }
+        .col-50{
+            width: 50%;
+            border: 5px solid thistle;
+        }
+        .col-33{
+            width: 33.88%;
+            border: 5px solid teal;
+        }
+        .col-25{
+            width: 25%;
+            border: 2px solid red;
+        }
+        /* img{
+            width: 40%;
+            height: 40%;
+        } */
+    </style>
+</head>
+<body>
+    <section>
+        <div class="container">
+            <div class="row">
+                <!-- col-50 -->
+                <div class="col-50"><img src="../../../Picture/dog.png" alt=""></div>
+                <div class="col-50">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste cum sapiente illum. Iusto omnis 
+                    voluptatum quaerat placeat soluta mollitia laborum aperiam laudantium excepturi quisquam ea reiciendis odit fugit, ipsum nam.
+                </div>
+            </div>
+            <!-- col-33 -->
+            <div class="row">
+                <div class="col-33">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae aut ratione, 
+                    rem esse fugit consectetur commodi facilis, ad ullam et porro tempore alias? Sint in quaerat totam animi neque optio.
+                </div>
+                <div class="col-33"><img src="../../../Picture/istockphoto-.png" alt=""></div>
+                <div class="col-33">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, quasi incidunt cum repellendus nulla
+                     quam ad ab tempore consectetur maiores earum adipisci nam quod dignissimos mollitia eum? Nostrum, veniam odit?
+                </div>
+            </div>
+                   <!-- col-25 -->
+                   <div class="row">
+                    <div class="col-25">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. A, expedita. Dolor laudantium, dignissimos obcaecati commodi
+                         rem dicta accusamus consequatur asperiores magni aliquid ex. Provident sed incidunt, labore corrupti autem eius.
+                    </div>
+                    <div class="col-25"><img src="../../../Picture/krishu.png" alt=""></div>
+                    <div class="col-25">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quasi, iusto,
+                         molestiae, dolor aut velit quod quos eligendi beatae accusantium itaque nobis. Molestias nesciunt suscipit aspernatur, perferendis corrupti iste repudiandae.
+                    </div>
+                    <div class="col-25"><img src="../../../Picture/peacock.png" alt=""></div>
+                   </div>
+        </div>
+    </section>
+</body>
+</html>

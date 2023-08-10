@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border In CSS</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        h1{
+            background-color: darkblue;
+            color: crimson;
+            text-align: center;
+            border: 10px solid lawngreen;
+        }
+        .box{
+            background-image: url(../../Picture/istockphoto-.png);
+            width:500px;
+            height: 300px;
+            background-clip: padding-box;
+            margin: 20px auto;
+            border: 10px solid greenyellow;
+            border: 10px double red;
+            border: 10px dashed palevioletred;
+            border: 10px dotted blueviolet;
+            border: 10px ridge peru;
+            border: 10px inset powderblue;
+            border: 10px groove purple;
+            border: 10px outset royalblue;
+            border-radius: 50px;
+            border-radius: 50%;
+            outline: 10px solid sienna;
+           
+        }
+        .box-img{
+            /* background-color: cornflowerblue; */
+            width: 500px;
+            height: 300px;
+            margin: 0 auto;
+            border: 50px solid;
+            border-image: url(../../Picture/tree.png)5;
+            /* outline: 10px solid orangered; */
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Border In CSS</h1>
+    <!-- The CSS border properties allow you to specify the style, width, and color of an element's border. -->
+    <div class="box"></div>
+    <hr>
+    <br>
+    <div class="box-img"></div>
+</body>
+</html>

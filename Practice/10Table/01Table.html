@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table In CSS</title>
+    <style>
+        h1{
+            background-color: plum;
+            color: purple;
+            border: 10px ridge purple;
+            text-align: center;
+        }
+        table,th,td{
+            border: 2px solid black;
+        }
+        table{
+            border-collapse: collapse;
+            width: 600px;
+            height: 600px;
+            text-align: center;
+        }
+        th{
+            color: aquamarine;
+            background-color: rebeccapurple;
+        }
+        /* tr:nth-child(2n) */
+        /* tr:nth-child(2n+1) */
+        /* tr:nth-child(3n) */
+        tr:nth-child(odd){
+            background-color: violet;
+            color: black;
+        }
+        tr:nth-child(even){
+            background-color: brown;
+            color: blanchedalmond;
+        }
+        .responsive{
+            width: 500px;
+            height: 500px;
+            margin: 0 auto;
+            border: 10px solid olive;
+            overflow: hidden;
+            overflow: scroll;
+            overflow: visible;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Table In CSS</h1>
+    <hr>
+    <div class="responsive">
+        <table>
+            <tr>
+                <th>Heading</th>
+                <th>Heading</th>
+                <th>Heading</th>
+                <th>Heading</th>
+                <th>Heading</th>
+            </tr>
+            <tr>
+                <td>Text</td>
+                <td>Text</td>
+                <td>Text</td>
+                <td>Text</td>
+                <td>Text</td>
+            </tr>
+            <tr>
+                <td>Text</td>
+                <td>Text</td>
+                <td>Text</td>
+                <td>Text</td>
+                <td>Text</td>
+            </tr>
+            <tr>
+                <td>Text</td>
+                <td>Text</td>
+                <td>Text</td>
+                <td>Text</td>
+                <td>Text</td>
+            </tr>
+            <tr>
+                <td>Text</td>
+                <td>Text</td>
+                <td>Text</td>
+                <td>Text</td>
+                <td>Text</td>
+            </tr>
+            <tr>
+                <td>Text</td>
+                <td>Text</td>
+                <td>Text</td>
+                <td>Text</td>
+                <td>Text</td>
+            </tr>
+            <tr>
+                <td>Text</td>
+                <td>Text</td>
+                <td>Text</td>
+                <td>Text</td>
+                <td>Text</td>
+            </tr>
+            <tr>
+                <td>Text</td>
+                <td>Text</td>
+                <td>Text</td>
+                <td>Text</td>
+                <td>Text</td>
+            </tr>
+            <tr>
+                <td>Text</td>
+                <td>Text</td>
+                <td>Text</td>
+                <td>Text</td>
+                <td>Text</td>
+            </tr>
+            <tr>
+                <td>Text</td>
+                <td>Text</td>
+                <td>Text</td>
+                <td>Text</td>
+                <td>Text</td>
+            </tr>
+            <tr>
+                <td>Text</td>
+                <td>Text</td>
+                <td>Text</td>
+                <td>Text</td>
+                <td>Text</td>
+            </tr>
+            <tr>
+                <td>Text</td>
+                <td>Text</td>
+                <td>Text</td>
+                <td>Text</td>
+                <td>Text</td>
+            </tr>
+            <tr>
+                <td>Text</td>
+                <td>Text</td>
+                <td>Text</td>
+                <td>Text</td>
+                <td>Text</td>
+            </tr>
+            
+        </table>
+    </div>
+</body>
+</html>
