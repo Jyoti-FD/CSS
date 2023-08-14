@@ -1,0 +1,410 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+   width: 100%;
+   background-color: #b13941;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+nav{
+width: 80%;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+   align-items: center;
+   padding: 8px 0 10px 0;
+}
+ul li{
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+.section1{
+background: rgba(0,0,0,0.5) url(../image/Place\ Your\ Image\ Here\ \(Double\ Click\ to\ Edit\)\ \(1\).png) no-repeat;
+height: 88vh;
+background-blend-mode: darken;
+
+}
+h1{
+    padding: 66px 0;
+    font-size: 92px;
+color: #feedda;
+font-family: "Yeseva One";
+text-align: center;
+}
+.poster{
+    font-size: 22px;;
+    padding: 0 90px 0 90px;
+    padding-top: 2px;
+    font-family: "PT serif";
+    color: #feedda;
+    text-align: center;
+}
+.but button{
+   background-color: #b13941;
+   padding: 10px 40px;
+   line-height: 33px;
+   font-size: 21px;
+   font-family: "PT Serif";
+   color: #feedda;
+   cursor: pointer;
+   text-align: center;
+}
+.but{
+   padding-top: 60px;
+   font-size: 21px;
+   color: #feedda;
+   line-height: 33px;
+   text-align: center;
+   font-family: "PT Serif";
+}
+.section2{
+ display: flex;
+ padding: 45px 10px;
+ align-items: center;
+justify-content: center;
+background-color: #b13941;
+gap: 80px;
+}
+.gift{
+    font-size: 37px;
+    color: #feedda;
+    font-weight: 400;
+    font-family: "Yeseva One";
+}
+.gift p{
+    padding: 2px 5px;
+    font-size: 18px;
+    width: 100%;
+    color: #feedda;
+    font-family: "PT serif";
+    margin: 10px 0 10px;
+}
+.gift button{
+    padding: 10px 12px;
+    cursor: pointer;
+    font-size: 18px;
+line-height: 29px;
+color: #b13941;
+background-color: #feedda;
+font-family: "PT Serif";
+text-align: center;
+}
+.section3{
+    width: 100%;
+    height: 100vh;
+    background-color: #f8eed3;
+    justify-content: center;
+    display: flex;
+}
+.cup{
+    width: 50%;
+}
+.cup img{
+    height: 100vh;
+}
+.NYC{
+    font-size: 75px;
+letter-spacing: 1px;
+color: #000000;
+font-weight: 400;
+font-family: "Yeseva One";
+
+}
+.NYC h1{
+    font-size: 75px;
+    color: #000000;
+}
+.NYC p{
+    font-size: 21px;
+    margin: 50px 0 40px 0;
+    color: #575757;
+    font-family: "PT Serif";
+    width: 576;
+}
+.NYC span{
+    font-size: 21px;
+    cursor: pointer;
+    color: #b13941;
+    font-family: "PT Serif";
+    text-decoration: underline;
+}
+.menu{
+    height: 100%;
+    background-color: #b13941;
+    width: 100%;
+}
+.menu1{
+    text-align: center;
+    width: 100%;
+}
+ .menu1 h1{
+    font-size: 58px;
+    padding: 30px 0;
+    color: #f8eed3;
+    letter-spacing: 1px;
+ }
+ .menu1 p{
+    display: inline-block;
+    width: 882px;
+    font-family: "PT Serif";
+    color: #f8eed3;
+    font-size: 21px;
+}
+.sec1{
+    width: 882px;
+    font-family: "PT Serif";
+    color: #f8eed3;
+    font-size: 21px;
+    display: flex;
+}
+.section-one{
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-left: 30px;
+    overflow: hidden;
+}
+.info{
+    width: 400px;
+height: 312px;
+    background-color: #ffffff;
+    padding: 30px 35px;
+    filter: drop-shadow(11.437px 17.612px 12px rgba(12,13,12,0.1));
+background-color: #ffffff;
+
+}
+.info p{
+    font-size: 22px;
+    line-height: 20px;
+    color: #575757;
+    font-family: "PT Serif";
+}
+.info h2{
+    font-size: 33px;
+    color: #010101;
+    line-height: 70px;
+    font-family: "Yeseva One";
+}
+.info button{
+    margin-top: 20px;
+    width: 130px;
+    height: 60px;
+    background-color: #b13941;
+    font-size: 14px;
+    color: #f8eed3;
+    font-family: "PT Serif";
+    cursor: pointer;
+}
+.menu2{
+    text-align: center;
+    width: 100%;
+}
+.menu2 h1{
+   letter-spacing: 1px;
+   font-size: 58px;
+   color: #b13941;
+   text-align: center;
+   font-family: "Yeseva One";
+   padding-top: 10px;
+}
+.menu2 p{
+  color: #b13941;
+  display: inline-block;
+  width: 882px;
+  font-family: "PT Serief";
+  font-size: 21px;
+}
+.store{
+    width: 1445px;
+height: 969px;
+background-color: #f8eed3;
+}
+.sec-info{
+    margin: 60px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info02{
+    height: 500px;
+    text-align: center;
+    background-color: #ffffff;
+    margin: 0 30px;
+}
+.s2{
+    width: 351;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 40px;
+    text-align: center;
+}
+.s2 p{
+    height: 85px;
+    font-size: 17px;
+    color: #575757;
+    width: 294px;
+    font-family: "PY Serif";
+}
+.s2 button{
+    height: 58px;
+    margin-top: 30px;
+    background-color: #b13941;
+    width: 136px;
+    color: #f8eed3;
+    font-family: "EB Garamond";
+    font-size: 21px;
+    cursor: pointer;
+}
+.profile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #b13941;
+    height: 100vh;
+}
+.company{
+    height: 459px;
+    width: 700px;
+    background-blend-mode: darken;
+    background: rgba(0,0,0,0.5) url(../image/profile.png);
+
+}
+.name{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 80px;
+    margin: 0 60px;
+}
+.pro{
+    margin-left: 0 60px;
+}
+.pro h1{
+    letter-spacing: 1px;
+    font-size: 58px;
+    font-family: "Yeseva One";
+    color: #f8eed3;
+}
+.pro p{
+    margin: 40px 0;
+    width: 500px;
+    font-size: 21px;
+    height: 101px;
+    color: #f8eed3;
+    font-family: "PT Serif";
+    line-height: 33px;
+}
+.face{
+    color: #f8eed3;
+    width: 60px;
+    height: 60px;
+}
+.insta{
+    color: #f8eed3;
+    width: 60px;
+    height: 60px;
+}
+.twi{
+    color: #f8eed3;
+    width: 30px;
+    height: 30px;
+}
+.map{
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    overflow: hidden;
+    background-color:  #ffffff;;
+}
+.contect{
+    width: 53%;
+    display: flex;
+    flex-direction: column;
+}
+.contect h1{
+    letter-spacing: 1px;
+    font-size: 58px;
+    padding: 50px 0;
+    font-family: "Yeseva One";
+    color: #b13941;
+}
+.contect input{
+    margin: 10px 0;
+    width: 651px;
+    padding:0 auto;
+    background-color: #efefef;
+    height: 62px;
+    font-size: 21px;
+}
+input[placeholder='Messages']{
+    width: 650px;
+    background-color:#efefef ;
+    border: 1.5px solid #b0b0b0;
+    height: 202px;
+    text-align: center;
+}
+.contect button{
+    margin: 40px 0;
+    font-size: 25px;
+    height: 64px;
+    background-color: #b13941;
+    color: #f8eed3;
+    font-family: "PT Serif";
+    width: 207px;
+    cursor: pointer;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 50vh;
+    background-color: #b13941;
+}
+.your{
+    height: 190px;
+    line-height: 30px;
+    font-family: "EB Garamond";
+    color: #f8eed3;
+}
+.your p{
+    font-size: 19px;
+    margin: 30px 0;
+    width: 150px;
+}
+.your h2{
+    font-size: 25px;
+    color: #f8eed3;
+    font-family: "EB Garamond" ;
+    
+}
+.footer ul{
+    height: 198px;
+    font-size: 25px;
+    letter-spacing: 0px;
+    line-height: 25px;
+    color: #f8eed3;
+    font-family: "EB Garamond";
+    display: block;
+}
+.footer ul li:hover{
+    cursor: pointer;
+}
+.last{
+    cursor: pointer;
+    font-size: 17px;
+    line-height: 29px;
+    color: #ffffff;
+    font-family: "PT";
+}
