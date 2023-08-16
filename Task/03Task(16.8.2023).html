@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task of the day</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        h1{
+            background-color: rgb(152, 154, 154);
+            color: black;
+            text-align: center;
+        }
+        .gallery {
+            display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          grid-auto-rows: minmax(100px, auto);
+        }
+        .gallery-item {
+         height: 530px;
+         width: 750px;
+        }
+        .gallery-item img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        }
+      </style>
+    </head>
+    <body>
+    <h1>Responsive Image Gallery</h1>
+      <div class="gallery">
+        <div class="gallery-item">
+          <img src="../Picture/img-1.png" alt="">
+        </div>
+        <div class="gallery-item">
+          <img src="../Picture/image-2.png" alt="">
+        </div>
+        <div class="gallery-item">
+          <img src="../Picture/image-3.png" alt="">
+        </div>
+        <div class="gallery-item">
+          <img src="../Picture/image-4.png" alt="">
+        </div>
+      </div>
+</body>
+</html>
