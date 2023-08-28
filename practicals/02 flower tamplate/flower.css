@@ -1,0 +1,488 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+   align-items: center;
+    width: 1350px;
+    height: 72px;
+    border-radius: 36px;
+    background-color: #333333;
+    padding: 20px 0px;
+}
+nav{
+width: 80%;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+   align-items: center;
+   padding: 10px 0 16px 30px;
+}
+ul li{
+    list-style: none;
+}
+li a{
+    font-size: 17px;
+    line-height: 29px;
+    color: #ffffff;
+    font-family: "Montserrat";
+    text-align: center;
+}
+.alt{
+    padding: 15px 0 20px 0;
+}
+.img{
+    background: rgba(246, 246, 246, 0.864) url(../img/flowe.png) no-repeat;
+height: 100vh;
+}
+.shop h1{
+    font-size: 104px;
+letter-spacing: 7px;
+line-height: 74px;
+text-transform: uppercase;
+color: #333333;
+font-weight: 700;
+font-family: "Unna";
+padding-top: 90px;
+}
+.shop p{
+    font-size: 63px;
+    color: #333333;
+    font-weight: 400;
+    font-family: "Sacramento itlatic";
+    padding-top: 50px;
+}
+.shop h2{
+    width: 1069px;
+height: 228px;
+font-size: 21px;
+letter-spacing: 1px;
+line-height: 29px;
+color: #333333;
+font-weight: 500;
+font-family: "Montserrat";
+text-align: left;
+padding-top: 50px;
+}
+.btn button{
+    width: 152px;
+    height: 50px;
+    border-radius: 23px;
+    background-color: #e08e9c;
+    color: #ffffff;
+    cursor: pointer;
+    /* border: none; */
+    border: none;
+
+}
+.btn{
+    padding-bottom: 100px;
+}
+.get{
+    width: 100%;
+height: 266px;
+background-color: #e08e9c;
+}
+.get h1{
+    font-size: 58px;
+letter-spacing: 1px;
+line-height: 67px;
+color: #f6f6f9;
+font-weight: 700;
+font-family: "Unna";
+text-align: center;
+}
+.get h2{
+    font-size: 71px;
+color: #f6f6f9;
+font-weight: 400;
+font-family: "Sacramento";
+text-align: center;
+}
+.product h1{
+    font-size: 50px;
+letter-spacing: 1px;
+line-height: 74px;
+text-transform: uppercase;
+color: #333333;
+font-weight: 700;
+font-family: "Unna";
+text-align: center;
+padding-top: 200px;
+}
+.product p{
+    width: 1412px;
+height: 130px;
+font-size: 21px;
+letter-spacing: 1px;
+line-height: 29px;
+color: #333333;
+font-weight: 500;
+font-family: "Montserrat";
+text-align: center;
+}
+
+.sec-info{
+    margin: 60px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info02{
+    height: 500px;
+    text-align: center;
+    background-color: #ffffff;
+    margin: 0 30px;
+}
+.s2{
+    width: 351;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 40px;
+    text-align: center;
+}
+.s2 button{
+    width: 160px;
+    height: 45px;
+    border-radius: 23px;
+    background-color: #a3aa68;
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+    cursor: pointer;
+}
+.circle{
+    width: 230px;
+height: 230px;
+border-radius: 112px;
+background-color: #efd0ca;
+}
+.s2 h1{
+    padding: 25px;
+    font-size: 30px;
+color: #333333;
+font-weight: 700;
+font-family: "Unna";
+text-align: center;
+}
+.s2 h2{
+    width: 400px;
+height: 60px;
+font-size: 21px;
+letter-spacing: 1px;
+line-height: 29px;
+color: #333333;
+font-weight: 100;
+font-family: "Montserrat";
+text-align: center;
+}
+.about{
+    background-color: #efd0ca;
+    width: 1517px;
+    height: 750px;
+}
+.us img{
+    margin-top: 60px;
+    margin-left: 60px;
+    width: 600px;
+    height: 600px;
+    border-radius: 50px;
+}
+.us h1{
+    font-size: 63px;
+color: #333333;
+font-weight: 400;
+font-family: "Sacramento";
+margin-left: 100px;
+margin-top: 100px;
+text-align: right;
+}
+.us{
+    display: flex;
+}
+.us h2{
+    width: 1006px;
+height: 506px;
+font-size: 21px;
+letter-spacing: 1px;
+line-height: 33px;
+color: #333333;
+font-weight: 500;
+font-family: "Montserrat";
+margin-top: 300px;
+text-align: right;
+/* margin-bottom: 10px; */
+}
+.us button{
+    width: 500px;
+height: 46px;
+border-radius: 23px;
+background-color: #333333;
+color: #e08e9c;
+margin-top: 700px;
+margin-right: 20px;
+cursor: pointer;
+}
+img[class*="offer"]{
+    position: absolute;
+    width: 20px;
+}
+.offer{
+    top: 0;
+}
+.loream{
+    background: rgba(246, 246, 246, 0.864) url(../img/background.png) no-repeat;
+    /* height: 100vh; */
+}
+.pq1 h1{
+    font-size: 63px;
+color: #333333;
+font-weight: 400;
+font-family: "Sacramento";
+padding-top: 300px;
+padding-left:30px ;
+}
+.pq1 h2{
+    width: 1006px;
+height: 506px;
+font-size: 21px;
+letter-spacing: 1px;
+line-height: 33px;
+color: #333333;
+font-weight: 500;
+font-family: "Montserrat";
+text-align: left;
+padding-top: 20px;
+padding-left:70px ;
+}
+.c{
+        margin-bottom: 10px;
+        margin-left: 60px;
+}
+.c button{
+    width: 152px;
+    height: 46px;
+    border-radius: 23px;
+    background-color: #333333;
+    color: #e08e9c;
+    cursor: pointer;
+}
+.container{
+    width:100%;
+height: 903px;
+background-color: #efd0ca;
+}
+.main,.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+.poster{
+   width: 50%;
+}
+.poster img{
+    border-radius: 55px;
+    width: 600px;
+    height: 600px;
+    margin-left: 20px;
+}
+.text{
+    width: 50%;
+}
+.text h1{
+    font-size: 63px;
+color: #333333;
+font-weight: 400;
+font-family: "Sacramento";
+margin-left: 80px;
+}
+.text h2{
+    width: 1006px;
+    height: 506px;
+    font-size: 21px;
+    letter-spacing: 1px;
+    line-height: 33px;
+    color: #333333;
+    font-weight: 500;
+    font-family: "Montserrat";
+    text-align: left; 
+    margin-left: 90px;
+    margin-top: 30px;
+}
+.click{
+    text-align: left;
+    margin-bottom: 60px;
+    margin-left: 60px;
+}
+button{
+    width: 152px;
+height: 46px;
+border-radius: 23px;
+background-color: #333333;
+color: #e08e9c;
+cursor: pointer;
+}
+.mnb{
+    width:100%;
+    height: 903px;
+    background-color: #efd0ca;
+}
+.mg{
+    width: 50%;
+    margin-left: 550px;
+}
+.mg h1{
+    font-size: 50px;
+    letter-spacing: 1px;
+    line-height: 74px;
+    text-transform: uppercase;
+    color: #333333;
+    font-weight: 700;
+    font-family: "Unna";
+}
+.mg h2{
+    width: 2000px;
+    height: 200px;
+    font-size: 25px;
+    letter-spacing: 1px;
+    line-height: 29px;
+    color: #333333;
+    font-weight: 500;
+    font-family: "Montserrat";
+}
+.sec{
+    height: 459px;
+    width: 700px;
+    align-items: center;
+    background-blend-mode: darken;
+    background:rgba(150, 127, 145, 0.52) url(../img/mother\ flower.png);
+    margin-left: 500px;
+    border-radius: 50px;
+}
+.green{
+    background: rgba(246, 246, 246, 0.864) url(../img/back2.png) no-repeat;
+    height: 120vh;
+}
+.pink h1{
+    font-size: 63px;
+color: #333333;
+font-weight: 400;
+font-family: "Sacramento";
+padding-top: 100px;
+padding-left:80px ;
+}
+.pink p{
+    width: 1006px;
+height: 506px;
+font-size: 21px;
+letter-spacing: 1px;
+line-height: 33px;
+color: #333333;
+font-weight: 500;
+font-family: "Montserrat";
+margin-top: 60px;
+margin-left: 80px;
+}
+.pink button{
+    width: 152px;
+height: 46px;
+border-radius: 23px;
+background-color: #333333;
+color: #e08e9c;
+margin-left: 80px; 
+cursor: pointer;
+}
+.two{
+    background: rgba(246, 246, 246, 0.864) url(../img/back3.png) no-repeat;
+    height: 120vh;
+}
+.red h1{
+    font-size: 50px;
+letter-spacing: 1px;
+line-height: 74px;
+text-transform: uppercase;
+color: #333333;
+font-weight: 700;
+font-family: "Unna";
+text-align: center;
+padding-top: 160px;
+}
+input[placeholder='Messages']{
+    width: 824px;
+    height: 129px;
+    background-color: #efefef;
+    border: 1.5px solid #b0b0b0;
+}
+.red input{
+    width: 825px;
+height: 54px;
+background-color: #efefef;
+border: 1.5px solid #b0b0b0;
+margin-left: 500px;
+}
+.red button{
+    width: 178px;
+height: 44px;
+border-radius: 22px;
+background-color: #a3aa68;
+border: none;
+color: #ffffff;
+margin-left: 600px;
+cursor: pointer;
+}
+.last{
+    width: 100%;
+height: 654px;
+background-color: #424242;
+}
+.your h1{
+    font-size: 38px;
+    letter-spacing: 4px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Unna";
+    margin-left: 100px;
+}
+.your p{
+    font-size: 25px;
+letter-spacing: -1px;
+line-height: 44px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Montserrat";
+margin-left: 100px;
+}
+.last{
+    display: flex;
+}
+.icon h1{
+    font-size: 66px;
+line-height: 88px;
+color: #efd0ca;
+font-weight: 400;
+font-family: "Sacramento";
+text-align: right;
+margin-top: 300px;
+}
+.face{
+    color:#efd0ca;
+    width: 60px;
+    height: 60px;
+}
+.insta{
+    color:#efd0ca;
+    width: 60px;
+    height: 60px;
+}
+.twi{
+    color:#efd0ca;
+    width: 30px;
+    height: 30px;
+}
