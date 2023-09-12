@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction To Position</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        div[class*="box"]{
+            height: 500px;
+            font-size: 30px;
+            color: aliceblue;
+        }
+        .fixed{
+            position: fixed;
+            top: 0;
+            right: 0;
+        }
+        .box-1{
+            background: url(../../Picture/image-3.png);
+            /* position: absolute; */
+        }
+        .box-2{
+            background: url(../../Picture/image-2.png);
+        }
+        .box-3{
+            background: url(../../Picture/istockphoto-.png);
+        }
+        .sticky{
+            position: sticky;
+            top: 0;
+        }
+        .static{
+            position: static;
+        }
+        .box-4{
+            background: url(../../Picture/krishu.png);
+        }
+        .box-5{
+            background: url(../../Picture/peacock.png);
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+    <div class="fixed"><img src="../../Picture/dog.png" alt=""></div>
+    <div class="box-1">Box-1</div><br>
+    <div class="box-2">Box-2
+        <div class="static">
+            hy im static
+        </div>
+    </div><br>
+    <div class="box-3">Box-3
+        <div class="sticky">
+            Hy im Sticky
+        </div>
+    </div> <br>
+    <div class="box-4">Box-4</div> <br>
+    <div class="box-5">Box-5</div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+</body>
+</html>

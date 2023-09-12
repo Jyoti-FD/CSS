@@ -4,7 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .jyoti{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-auto-rows: minmax(300px, auto);
+        }
+        .pic1{
+            background: url(../../Picture/dog.png)no-repeat;
+        }
+        .pic2{
+            background: url(../../Picture/image-2.png)no-repeat;
+            grid-row: 1/2;
+            grid-column: 2/2;
+        }
+        .pic3{
+            background: url(../../Picture/img-1.png)no-repeat;
+            grid-column: 3/3;
+            grid-row: 1/3;
+        }
+        .pic4{
+            background: url(../../Picture/image-4.png)no-repeat;
+            grid-column: 1/2;
+            grid-row: 2/2;
+        }
+        .pic5{
+            background: url(../../Picture/krishna.png)no-repeat;
+            grid-column: 2/2;
+            grid-row: 2/2;
+        }
+        .pic6{
+            background: url(../../Picture/panda.png)no-repeat;
+            grid-column: 3/3;
+            grid-row: 3/2 ;
+        }
+        
+    </style>
 </head>
 <body>
     <div class="jyoti">
