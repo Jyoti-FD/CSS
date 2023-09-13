@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    position: relative;
+    font-size: 30px;
+background-color: #303030;
+color: aliceblue;
+}
+nav, .nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+}
+li{
+    list-style-type: none;
+    padding: 0px 30px;
+}
+input{
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    opacity: 0;
+    width: 20px;
+}
+
+/* media query start here */
+
+@media(min-width:1400px){
+    .nav-menu{
+        display: none;
+    }
+    input{
+        opacity: 1;
+    }
+    input:checked + ul{
+        display: flex;
+    }
+    li{
+        font-size: 20px;
+        padding: 30px 80px;
+    }
+    nav{
+        font-size: 60px;
+    }
+    .img{
+        background-color: #303030;
+    }
+}
+    </style>
+</head>
+<body>
+   <header>
+    <nav class="row">
+        <div class="logo"><img src="../03img/Vector Smart Object (Double Click to Edit).png" alt=""></div>
+        <input type="checkbox">
+        <ul class="nav-menu">
+            <li>HOME</li>
+            <li>PRODUCT</li>
+            <li>PROMO</li>
+            <li>ABOUT</li>
+            <li>CONTACT</li>
+            <img src="../03img/Search.png" alt="">
+        </ul>
+        </nav>
+        <div class="img"><img src="../03img/back.png" alt="">
+           
+        </div>
+        
+   </header>
+</body>
+</html>
