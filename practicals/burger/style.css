@@ -1,0 +1,747 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+header {
+    background: url(../burger/img/bg.png) no-repeat center/cover;
+    padding: 30px 50px;
+}
+
+button {
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.first-nav {
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.rigth {
+    justify-content: center;
+    gap: 20px;
+}
+
+.second-nav ul {
+    justify-content: end;
+    list-style: none;
+}
+
+.second-nav ul li a {
+    margin-left: 40px;
+    font-size: 18px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #3d2514;
+    font-family: "Bebas Neue";
+    padding-bottom: 5px;
+    position: relative;
+    text-decoration: none;
+}
+.second-nav ul li a::after{
+    content: '';
+    width: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 3px;
+    color: #3d2514;
+    background-color: #3d2514;
+}
+.second-nav ul li a:hover::after {
+    width: 100%;
+    transition: .5s;
+}
+
+.express p {
+    line-height: 71px;
+    color: #3d2514;
+    font-family: "Montserrat";
+    text-align: right;
+    font-size: 17px;
+}
+
+.first-center {
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-family: "Alfa Slab One";
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.first-left {
+    position: relative;
+    bottom: 100px;
+    color: #3d2514;
+}
+
+.first-left h1 {
+    font-size: 120px;
+}
+
+.first-left h2 {
+    font-size: 45px;
+}
+
+.first-left p {
+    padding: 10px;
+    font-family: "Bebas Neue";
+    border: 2px dashed #3d2514;
+    font-size: 20px;
+}
+
+.first-right {
+    border: 2px solid b;
+    justify-content: end;
+    height: 610px;
+    margin-right: 50px;
+    width: 50.5%;
+}
+
+.first-right img {
+    position: absolute;
+}
+
+.photo {
+    right: 80px;
+    bottom: 60px;
+    z-index: 5;
+}
+
+.french {
+    right: 360px;
+    bottom: 90px;
+    z-index: 3;
+}
+
+.glass {
+    z-index: 2;
+}
+
+.shadow {
+    right: -3%;
+    bottom: 20px;
+}
+
+.burger-shadow {
+    bottom: 3%;
+    right: 4%;
+}
+
+.discount {
+    width: 13%;
+    z-index: 50;
+    right: 28%;
+    bottom: 50px;
+}
+
+.burger-main {
+    display: grid;
+    grid-template-columns: repeat (2, 1fr);
+    grid-auto-rows: 200px;
+    row-gap: 10px;
+    column-gap: 50px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.burger-main h3 {
+    font-size: 25px;
+}
+
+.burger-main h1 {
+    font-size: 10px;
+}
+
+.burger-3 {
+    margin: 60px;
+}
+
+.burger-one {
+    grid-row: 1/3;
+    border-radius: 5px;
+    padding: 20px 30px;
+    background: url(../burger/img/burger1.png) no-repeat center/cover;
+
+}
+
+.burger-two {
+    background: url(../burger/img/burger2.png) no-repeat center/cover;
+    grid-column: 2/3;
+    padding: 20px 30px;
+    border-radius: 5px;
+
+}
+
+.burger-three {
+    background: url(../burger/img/burger3.png) no-repeat center/cover;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    padding: 20px 30px;
+    border-radius: 5px;
+}
+
+.second-three-burger {
+    text-transform: uppercase;
+    color: #3d2514;
+    text-align: center;
+
+}
+
+.content {
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.content button {
+    font-size: 15px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #ffc045;
+}
+
+.content h1 {
+    text-transform: uppercase;
+    font-family: "Alfa Slab One";
+    font-size: 50px;
+    margin: 30px 0 25px 0;
+}
+
+.content p {
+    width: 1000px;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 30px;
+    font-family: "Montserrat";
+}
+
+.teen-burgur {
+    margin: 40px 0;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.first-img {
+    justify-content: center;
+    flex-direction: column;
+    color: #3d2514;
+    flex-basis: 30%;
+}
+
+.first-img h1 {
+    font-size: 30px;
+    font-family: "Bebas Neue";
+}
+
+.first-img p {
+    font-size: 17px;
+    margin-top: 10px;
+    font-weight: bold;
+    line-height: 30px;
+    font-family: "Montserrat";
+}
+
+.sdow {
+    width: 80%;
+}
+
+.first-img button {
+    padding: 10px 20px;
+    margin: 30px 0;
+    background-color: #bf2222;
+    color: #ffffff;
+    font-family: "Alfa Slab One";
+    border: none;
+    font-size: 17px;
+}
+
+.discover {
+    box-shadow: 10px 10px 30px 5px gray;
+    padding: 15px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.third-section {
+    padding: 40px;
+}
+
+.text {
+    padding: 50px;
+    flex-basis: 50%;
+    text-transform: uppercase;
+}
+
+
+.image {
+    text-align: center;
+    flex-basis: 50%;
+}
+
+.image img {
+    width: 100%;
+}
+
+.text h3 {
+    font-size: 29px;
+    letter-spacing: 2px;
+    color: #3d3d3d;
+    font-family: "Bebas Neue";
+}
+
+.text h2 {
+    font-size: 55px;
+    letter-spacing: 3px;
+    color: #3d2514;
+    font-family: "Alfa Slab One";
+}
+
+.text p {
+    padding: 20px 0;
+    font-size: 18px;
+    line-height: 33px;
+    color: #3d3d3d;
+    font-family: "Montserrat";
+}
+
+form {
+    display: grid;
+    place-items: end;
+    justify-content: center;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(3, auto);
+    row-gap: 50px;
+    column-gap: 30px;
+    margin: 80px 0;
+}
+
+.contect {
+    position: relative;
+    padding: 60px 0;
+    overflow: hidden;
+}
+
+.contect img {
+    position: absolute;
+}
+
+.lemon {
+    top: -100px;
+    left: -100px;
+}
+
+.plate {
+    bottom: -230px;
+    right: -250px;
+}
+
+.bottle {
+    top: 150px;
+    left: 150px;
+}
+
+input {
+    height: 50px;
+    border-radius: 5px;
+    border: 2px solid #bebebe;
+    padding: 20px;
+    font-size: 15px;
+    width: 400px;
+    outline-color: #bf2222;
+}
+
+.form button {
+    width: 400px;
+    border-radius: 5px;
+    background-color: #bf2222;
+    font-size: 21px;
+    height: 50px;
+    color: #ffffff;
+    font-family: "Alfa Slab One";
+    border: 2px solid black;
+}
+
+.form {
+    color: #3d2514;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.form h4 {
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-family: "Bebas Neue";
+}
+
+.form h1 {
+    font-size: 40px;
+    letter-spacing: 3px;
+    font-family: "Alfa Slab One";
+}
+
+footer {
+    background: url(../burger/img/bglast.jpg) no-repeat bottom/cover;
+    width: 95%;
+    color: #ffffff;
+    margin: 30px auto;
+    padding: 40px;
+
+}
+
+.last {
+    flex-direction: column;
+}
+
+.last-one {
+    justify-content: space-between;
+    align-items: end;
+
+}
+
+.last-footer {
+    flex-basis: 30%;
+}
+
+.last-footer p {
+    margin: 20px 0;
+    font-size: 17px;
+    line-height: 25px;
+    font-family: "Montserrat";
+}
+
+.right-footer p {
+    line-height: 38px;
+    font-family: "Bebas Neue";
+    font-size: 21px;
+}
+
+.last-two {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    font-family: "Bebas Neue";
+}
+
+.p {
+    font-size: 17px;
+}
+
+.icon i {
+    font-size: 25px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+@media  only screen and (max-width:768px) {
+    nav {
+        width: 100%;
+        text-align: center;
+    }
+
+    .logo {
+        width: 100%;
+    }
+
+    .second-nav ul {
+        justify-content: space-between;
+    }
+
+    .second-nav ul li a {
+        margin: 0px;
+    }
+
+    .rigth {
+        width: 100%;
+    }
+
+    .first-center {
+        margin-top: 50px;
+        width: 100%;
+        position: relative;
+        justify-content: center;
+    }
+
+    .first-left {
+        width: 100%;
+        position: static;
+    }
+
+    .first-left h1 {
+        font-size: 60px;
+    }
+
+    .first-left p {
+        text-align: center;
+    }
+
+    .first-left h2 {
+        font-size: 30px;
+    }
+
+    .teen-burgur {
+        justify-content: center;
+    }
+
+    .first-right {
+        margin-right: 0;
+        width: 100%;
+        height: 300px;
+    }
+
+    .first-right img {
+        width: 30%;
+        bottom: 20px;
+    }
+
+    .first-img {
+        flex-basis: 70%;
+    }
+
+    .first-right .glass {
+        width: 20%;
+    }
+
+    .first-right .discount {
+        bottom: 0;
+        right: 120px;
+        width: 15%;
+    }
+
+    .french {
+        right: 100px;
+    }
+
+    .photo {
+        right: 20px;
+    }
+
+    .burger-one {
+        grid-column: 1/4;
+        grid-row: auto;
+    }
+
+    .burger-three {
+        grid-column: 1/4;
+
+    }
+
+    .burger-two {
+        grid-column: 1/4;
+    }
+
+    .burger-3 {
+        margin: 30px;
+    }
+
+    .content h1 {
+        font-size: 30px;
+
+    }
+
+    .content p {
+        width: 100%;
+        font-size: 15px;
+        line-height: 25px;
+        padding: 0 20px;
+
+    }
+
+    .text {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .text p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .image {
+        text-align: center;
+        flex-basis: 100%;
+        width: 100%;
+    }
+
+    .image img {
+        text-align: center;
+        width: 100%;
+    }
+
+    .discover {
+        display: block;
+    }
+
+    .text h2 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    form {
+        grid-template-columns: 1fr;
+        padding: 0 10px;
+        row-gap: 20px;
+        margin-top: 40px;
+        margin-bottom: 0;
+    }
+
+    input {
+        width: 100%;
+        height: 25px;
+    }
+
+    form button {
+        width: 100%;
+    }
+
+    .form h1 {
+        font-size: 30px;
+    }
+
+    .contect img {
+        display: none;
+    }
+
+    footer {
+        padding: 10px;
+    }
+
+    .last-one {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .last-footer img {
+        width: 50%;
+    }
+
+    .last-footer p {
+        font-size: 13px;
+    }
+
+    .right-footer p {
+        display: inline;
+        font-size: 15px;
+    }
+
+    .last-two {
+        gap: 10px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .p {
+        font-size: 13px;
+    }
+
+    .icon i {
+        font-size: 15px;
+    }
+}
+@media only screen and (min-width:769px) and (max-width:992px){
+    .second-nav ul{
+        justify-content: center;
+    }
+    .first-center{
+        flex-wrap: nowrap;
+    }
+    .first-right img{
+        width: 30%;
+    }
+    .first-right{
+        margin-right: 0;
+    }
+    .first-right .glass{
+        width: 20%;
+    }
+    .first-right .french{
+        right: 230px;
+
+    }
+    .first-right .discount{
+        width: 18%;
+    }
+    .first-right .discount{
+        right: 230px;
+        bottom: 20px;
+
+    }
+    .contect {
+        position: relative;
+        padding: 60px 0;
+        overflow: hidden;
+    }
+    
+    .contect img {
+        position: absolute;
+    }
+    
+    .lemon {
+        top: -100px;
+        left: -100px;
+    }
+    
+    .plate {
+       bottom: -370px;
+        right: -250px;
+    }
+    
+    .bottle {
+        top: 150px;
+        left: 150px;
+    }
+    
+    input {
+        height: 50px;
+        border-radius: 5px;
+        border: 2px solid #bebebe;
+        padding: 20px;
+        font-size: 15px;
+        width: 400px;
+        outline-color: #bf2222;
+    }
+    
+    .form button {
+        width: 400px;
+        border-radius: 5px;
+        background-color: #bf2222;
+        font-size: 21px;
+        height: 50px;
+        color: #ffffff;
+        font-family: "Alfa Slab One";
+        border: 2px solid black;
+    }
+    
+    .form {
+        color: #3d2514;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    
+    .form h4 {
+        font-size: 30px;
+        letter-spacing: 2px;
+        font-family: "Bebas Neue";
+    }
+    
+    .form h1 {
+        font-size: 40px;
+        letter-spacing: 3px;
+        font-family: "Alfa Slab One";
+    }
+    
+}

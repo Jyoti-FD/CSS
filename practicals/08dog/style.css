@@ -1,0 +1,788 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.head{
+    background: url(../08dog/image/Header\ Background.png)center/cover no-repeat;
+    height: 100vh;
+    position: relative;
+}
+.bars button{
+  display: none;
+}
+  nav {
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    padding: 20px 20px;
+  }
+  ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  ul li {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+    color: aliceblue;
+    text-align: center;
+    font-size: 25px;
+    padding: 7px 13px;
+  }
+  a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: #452a31;
+  }
+  input[type="checkbox"] {
+    display: none;
+  }
+  .dog-1 .white-dog{
+position: absolute;
+bottom: 0px;
+right: 20px;
+  }
+  .dog-1 .text h3{
+    color: #452a31;
+    text-align: center;
+    padding-top: 150px;
+    word-spacing: 8px;
+    letter-spacing: 1px;
+    font-size: 25px;
+  }
+  .circle .circle-img-1{
+    position: absolute;
+bottom: 10px;
+right: 600px;
+  }
+  .circle .circle-img-2{
+    position: absolute;
+    bottom: 170px;
+    right: 520px;
+  }
+  .circle h2{
+    color: #0072a8;
+    font-size: 35px;
+    transform: rotate(-15deg);
+    position: absolute;
+    bottom: 160px;
+    right: 680px;
+  }
+  .dog-food{
+    position: absolute;
+    bottom: -90px;
+    left: 5px;
+  }
+  .section{
+    height: 550px;
+    position: relative;
+  }
+  .second{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 5px;
+    padding: 60px;
+  }
+  .text-2 h3{
+    font-size: 42px;
+letter-spacing: 3px;
+color: #452a31;
+  }
+  .text-2 h2{
+    font-size: 60px;
+    letter-spacing: 3px;
+    color: #0072a8;
+  }
+  .image img{
+    height: 300px;
+  }
+  .para p{
+    font-size: 22px;
+line-height: 30px;
+color: #3d3d3d;
+letter-spacing: 2px;
+word-spacing: 7px;
+  }
+  .dog-2 .black-dog{
+    position: absolute;
+    top: 870px;
+  }
+  .chicken{
+    background: url(../08dog/image/Chicken\ Image.png) no-repeat center/cover;
+    height: 400px;
+  }
+  .chicken .vector-2{
+    position: absolute;
+    bottom: -800px;
+  }
+  .chicken h3{
+    color: azure;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 60px;
+  }
+  .chicken h2{
+    color: azure;
+    text-align: center;
+    font-size: 32px;
+    padding-top: 20px;
+    word-spacing: 15px;
+    letter-spacing: 1px;
+  }
+  .chicken p{
+    color: azure;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 30px;
+    word-spacing: 5px;
+  }
+  .section-2{
+    height: 600px;
+    position: relative;
+  }
+  .dog-3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .dog-3 .polo{
+    padding-top: 100px;
+  }
+  .dog-3 h3{
+    color: #452a31;
+    font-size: 30px;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    padding-top: 180px;
+  }
+  .dog-3 p{
+    font-size: 20px;
+    word-spacing: 10px;
+    letter-spacing: 1.5px;
+    padding-top: 10px;
+  }
+  .dog-3 .vector-3{
+    position: absolute;
+    top: 90px;
+    right: 70px;
+  }
+  .dog-3 button{
+    margin-top: 30px;
+    border: none;
+    padding: 5px 5px 5px 5px;
+    font-size: 15px;
+    background-color: #56b6fb;
+    color: aliceblue;
+    cursor: pointer;
+  }
+  .section-3{
+    background-color: #f0f0f0;
+    height: 350px;
+    position: relative;
+  }
+  .coco{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .dog-4 img{
+    position: absolute;
+    top: -90px;
+    right: 600px;
+  }
+  .coco h3{
+    color: #452a31;
+    padding: 70px 0px 0px 100px;
+    font-size: 20px;
+  }
+  .learn-more h5{
+   padding: 40px 0px 0px 100px;
+    position: absolute;
+    top: 70px;
+  }
+  .learn-more input[type="text"]{
+   margin: 20px 0px 20px 100px;
+   padding: 8px 170px 8px 0px;
+   border: none;
+   background-color: #f0f0f0 ;
+  }
+  .btn button{
+    margin: 10px 0px 20px 100px;
+    padding: 7px 7px 7px 7px;
+    border: none;
+    background-color: #56b6fb;
+    color: white;
+    cursor: pointer;
+  }
+  .thinking p{
+    padding: 20px 0px 20px 100px;
+    color: gray;
+  }
+  .section-4{
+    height: 500px;
+    position: relative;
+  }
+  .find{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .dog-feed img{
+    height: 350px;
+    padding-top:100px ;
+  }
+  .text-5 h3{
+    color: #452a31;
+    padding: 70px 0px 0px 0px;
+    font-size: 25px;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+  }
+  .text-5 p{
+    font-size: 20px;
+    padding: 20px 0px 0px 0px;
+    letter-spacing: 1.7px;
+    word-spacing: 6px;
+  }
+  .final{
+    height: 650px;
+  }
+  .last{
+    background: url(../08dog/image/last-img.png)center no-repeat;
+    height: 600px;
+    position: relative;
+  }
+  .last .vector-4{
+    position: absolute;
+    top: 50px;
+    left: 690px;
+  }
+  .last .last-logo{
+    position: absolute;
+    top: 220px;
+    left: 770px;
+  }
+  .footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 440px;
+    gap: 20px;
+    color: #452a31;
+  }
+  .email h3{
+    text-align: center;
+    padding-top: 10px;
+  }
+  .icon{
+    font-size: 30px;
+    word-spacing: 20px;
+    padding-top: 10px;
+    position: absolute;
+    right: 200px;
+    cursor: pointer;
+  }
+  @media screen and (max-width: 1200px){
+    .dog-1 .white-dog{
+        height: 400px;
+        position: absolute;
+        bottom: 0px;
+        right: -10px;
+          }
+          .circle .circle-img-1{
+            height: 250px;
+            position: absolute;
+        bottom: 10px;
+        right: 460px;
+          }
+          .circle .circle-img-2{
+            height: 110px;
+            position: absolute;
+            bottom: 170px;
+            right: 380px;
+          }
+          .circle h2{
+            font-size: 30px;
+            position: absolute;
+            bottom: 120px;
+            right: 530px;
+          }
+          .dog-food{
+            height: 100px;
+            position: absolute;
+            bottom: 250px;
+            left: -25px;
+          }
+          .section{
+            position: relative;
+          }
+          .dog-2 .black-dog{
+            width: 380px;
+            position: absolute;
+            top: 990px;
+          }
+          .section-2{
+            position: relative;
+          }
+          .dog-3 .vector-3{
+            position: absolute;
+            right: 30px;
+          }
+          .section-3{
+            position: relative;
+          }
+          .dog-4 img{
+            position: absolute;
+            top: -90px;
+            right: 400px;
+          }
+}
+@media screen and (max-width: 992px){
+    .head{
+        position: relative;
+    }
+      nav {
+        position: relative;
+      }
+      ul {
+        gap: 5px;
+      }
+      a {
+        font-size: 22px;
+        padding: 7px 13px;
+      }
+      .dog-1 .white-dog{
+    position: absolute;
+    right: -5px;
+      }
+      .circle .circle-img-1{
+        height: 190px;
+        position: absolute;
+    bottom: 310px;
+    right: 400px;
+      }
+      .circle .circle-img-2{
+        height: 90px;
+        position: absolute;
+        bottom: 420px;
+        right: 340px;
+      }
+      .circle h2{
+        font-size: 20px;
+        transform: rotate(-11deg);
+        position: absolute;
+        bottom: 380px;
+        right: 450px;
+      }
+      .dog-food{
+        position: absolute;
+        bottom: 180px;
+        left: -25px;
+      }
+      .dog-food img{
+        height: 380px;
+      }
+      .section{
+        position: relative;
+      }
+      .second{
+        gap: 7px;
+        padding: 62px;
+      }
+      .text-2 h3{
+        font-size: 32px;
+      }
+      .text-2 h2{
+        font-size: 50px;
+      }
+      .para p{
+        font-size: 18px;
+    letter-spacing: 0.5px;
+    word-spacing: 4px;
+      }
+      .dog-2 .black-dog{
+        width: 330px;
+        position: absolute;
+        top: 1100px;
+      }
+      .chicken .vector-2{
+        height: 70px;
+        position: absolute;
+        bottom: -700px;
+        left: 60px;
+      }
+      .chicken h3{
+        font-size: 25px;
+      }
+      .chicken h2{
+        font-size: 32px;
+        padding-top: 15px;
+      }
+      .chicken p{
+        font-size: 17px;
+        padding-top: 23px;
+        word-spacing: 7px;
+        letter-spacing: 1px;
+      }
+      .section-2{
+        position: relative;
+      }
+      .dog-3 h3{
+        font-size: 25px;
+        padding-left: 70px;
+      }
+      .dog-3 p{
+        font-size: 17px;
+        word-spacing: 5px;
+        letter-spacing: 1px;
+        padding-left: 70px;
+      }
+      .dog-3 .vector-3{
+        height: 80px;
+        position: absolute;
+        top: 90px;
+        right: 40px;
+      }
+      .dog-3 button{
+        margin-left: 60px;
+      }
+      .section-3{
+        position: relative;
+      }
+      .dog-4 img{
+        position: absolute;
+        right: 300px;
+      }
+      .learn-more input[type="text"]{
+        padding: 8px 130px 8px 0px;
+       }
+      .btn button{
+        margin: 10px 0px 20px 130px;
+      }
+      .coco{
+      gap: 30px;
+      }
+      .section-4{
+        position: relative;
+      }
+      .text-5 p{
+        letter-spacing: 1px;
+        word-spacing: 4px;
+      }
+      .last{
+        position: relative;
+      }
+      .last .vector-4{
+        height: 320px;
+        position: absolute;
+        left: 450px;
+      }
+      .last .last-logo{
+        width: 250px;
+        position: absolute;
+        left: 520px;
+      }
+      .footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 440px;
+        gap: 20px;
+        color: #452a31;
+      }
+      .email h3{
+        text-align: center;
+        padding-top: 10px;
+      }
+      .icon{
+        font-size: 30px;
+        word-spacing: 20px;
+        padding-top: 10px;
+        position: absolute;
+        right: 200px;
+        cursor: pointer;
+      }
+}
+@media screen and (max-width: 765px){
+  nav ul li{
+    display: none;
+}
+.bars button{
+    display: block;
+    background-color: transparent;
+    border: none;
+}
+input[type=checkbox]{
+    display: none;   
+}
+.head{
+  position: relative;
+}
+.dog-1 .white-dog{
+  height: 280px;
+position: absolute;
+right: 0px;
+}
+.dog-1 .text h3{
+  padding-top: 50px;
+}
+.circle .circle-img-1{
+  position: absolute;
+bottom: 200px;
+right: 300px;
+}
+.circle .circle-img-2{
+  position: absolute;
+  bottom: 290px;
+  right: 240px;
+}
+.circle h2{
+  font-size: 17px;
+  position: absolute;
+  bottom: 280px;
+  right: 380px;
+}
+.dog-food img{
+  height: 300px;
+}
+.dog-food{
+  position: absolute;
+  bottom: 120px;
+  left: -55px;
+}
+.second{
+  display: block;
+}
+.text-2 h3{
+  font-size: 38px;
+  text-align: center;
+}
+.text-2 h2{
+  font-size: 42px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.image img{
+  height: 200px;
+  position: absolute;
+  top: 300px;
+  left: 250px;
+}
+.para p{
+  padding-top: 20px;
+  font-size: 18px;
+line-height: 20px;
+letter-spacing: 2px;
+word-spacing: 9px;
+text-align: center;
+}
+.dog-2 .black-dog{
+  width: 250px;
+  position: absolute;
+  top: 970px;
+}
+.chicken .vector-2{
+  position: absolute;
+  bottom: -670px;
+}
+.chicken h3{
+  font-size: 25px;
+  padding-top: 60px;
+}
+.chicken h2{
+  font-size: 29px;
+}
+.chicken p{
+  font-size: 18px;;
+  word-spacing: 5px;
+}
+.section-2{
+  position: relative;
+}
+.dog-3 .polo{
+  padding-top: 100px;
+  height: 350px;
+}
+.dog-3 h3{
+  font-size: 20px;
+}
+.dog-3 p{
+  font-size: 15px;
+  word-spacing: 5px;
+  letter-spacing: 1px;
+}
+.dog-3 .vector-3{
+  position: absolute;
+  top: 90px;
+  right: 10px;
+}
+.section-3{
+  position: relative;
+}
+.dog-4 img{
+  height: 500px;
+  position: absolute;
+  top: -90px;
+  right: 280px;
+}
+.coco h3{
+  color: #452a31;
+  padding: 70px 0px 0px 80px;
+  font-size: 15px;
+}
+.learn-more input[type="text"]{
+ margin: 20px 2px 20px 25px;
+ padding: 8px 50px 8px 0px;
+ border: none;
+}
+.thinking p{
+  padding: 20px 0px 20px 90px;
+  color: gray;
+}
+.section-4{
+  position: relative;
+}
+.text-5 h3{
+  font-size: 20px;
+}
+.text-5 p{
+  font-size: 15px;
+  padding: 20px 0px 0px 0px;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+.last{
+  position: relative;
+}
+.last .vector-4{
+  height: 200px;
+  position: absolute;
+  top: 100px;
+  left: 350px;
+}
+.last .last-logo{
+  width: 150px;
+  position: absolute;
+  top: 190px;
+  left: 400px;
+}
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 440px;
+  gap: 20px;
+  color: #452a31;
+}
+.email h3{
+  text-align: center;
+  padding-top: 10px;
+}
+.icon{
+  font-size: 30px;
+  word-spacing: 20px;
+  padding-top: 10px;
+  position: absolute;
+  right: 200px;
+  cursor: pointer;
+}
+}
+@media screen and (max-width: 576px){
+  .head{
+    position: relative;
+}
+  .circle .circle-img-1{
+    height: 150px;
+    position: absolute;
+bottom: 260px;
+right: 160px;
+  }
+  .circle .circle-img-2{
+    position: absolute;
+    bottom: 300px;
+    right: 90px;
+  }
+  .circle h2{
+    font-size: 15px;
+    transform: rotate(-15deg);
+    position: absolute;
+    bottom: 340px;
+    right: 200px;
+  }
+  .dog-food img{
+    height: 250px;
+  }
+  .dog-food{
+    position: absolute;
+    bottom: 90px;
+    left: -25px;
+  }
+  .chicken h3{
+    font-size: 20px;
+    padding-top: 150px;
+  }
+  .chicken h2{
+    font-size: 28px;
+  }
+  .chicken p{
+    font-size: 15px;
+    padding-top: 30px;
+    word-spacing: 1px;
+    letter-spacing: 0px;
+  }
+  .section-3{
+    background-color: #f0f0f0;
+    height: 300px;
+    position: relative;
+  }
+  .coco{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 90px;
+  }
+  .dog-4 img{
+    position: absolute;
+    top: -120px;
+    right: 190px;
+  }
+  .coco h3{
+    padding: 40px 0px 0px 0px;
+    font-size: 15px;
+  }
+  .learn-more input[type="text"]{
+   margin: 20px 0px 20px 0px;
+   padding: 8px 30px 8px 0px;
+   border: none;
+  }
+  .btn button{
+    margin: 10px 0px 20px 0px;
+    padding: 7px 7px 7px 7px;
+    border: none;
+    cursor: pointer;
+  }
+  .thinking p{
+    padding: 20px 0px 20px 10px;
+    color: gray;
+  } 
+  .final{
+    height: 650px;
+  }
+  .last{
+    position: relative;
+  }
+  .last .vector-4{
+    position: absolute;
+    top: 60px;
+    left: 260px;
+  }
+  .last .last-logo{
+    position: absolute;
+    top: 150px;
+    left: 300px;
+  }
+}

@@ -7,14 +7,13 @@ header{
     display: flex;
     justify-content: space-around;
    align-items: center;
-    width: 1350px;
-    height: 72px;
+    height: 50px;
     border-radius: 36px;
     background-color: #333333;
     padding: 20px 0px;
 }
 nav{
-width: 80%;
+width: 90%;
 }
 ul{
     display: flex;
@@ -26,17 +25,19 @@ ul li{
     list-style: none;
 }
 li a{
-    font-size: 17px;
+    font-size: 20px;
     line-height: 29px;
     color: #ffffff;
     font-family: "Montserrat";
     text-align: center;
+    text-decoration: none;
+    padding-top: 60px;
 }
 .alt{
-    padding: 15px 0 20px 0;
+    padding: 30px 0 20px 0;
 }
 .img{
-    background: rgba(246, 246, 246, 0.864) url(../img/flowe.png) no-repeat;
+    background: url(./img/background.png) no-repeat center center/cover;
 height: 100vh;
 }
 .shop h1{
@@ -90,11 +91,11 @@ background-color: #e08e9c;
 .get h1{
     font-size: 58px;
 letter-spacing: 1px;
-line-height: 67px;
 color: #f6f6f9;
 font-weight: 700;
 font-family: "Unna";
 text-align: center;
+padding-top: 50px;
 }
 .get h2{
     font-size: 71px;
@@ -237,8 +238,7 @@ img[class*="offer"]{
     top: 0;
 }
 .loream{
-    background: rgba(246, 246, 246, 0.864) url(../img/background.png) no-repeat;
-    /* height: 100vh; */
+    background: rgba(246, 246, 246, 0.864) url(./img/background.png) no-repeat center center/cover;
 }
 .pq1 h1{
     font-size: 63px;
@@ -362,12 +362,12 @@ cursor: pointer;
     width: 700px;
     align-items: center;
     background-blend-mode: darken;
-    background:rgba(150, 127, 145, 0.52) url(../img/mother\ flower.png);
+    background:rgba(150, 127, 145, 0.52) url(./img/mother\ flower.png);
     margin-left: 500px;
     border-radius: 50px;
 }
 .green{
-    background: rgba(246, 246, 246, 0.864) url(../img/back2.png) no-repeat;
+    background: rgba(246, 246, 246, 0.864) url(./img/back2.png) no-repeat center center/cover;
     height: 120vh;
 }
 .pink h1{
@@ -400,7 +400,7 @@ margin-left: 80px;
 cursor: pointer;
 }
 .two{
-    background: rgba(246, 246, 246, 0.864) url(../img/back3.png) no-repeat;
+    background: rgba(246, 246, 246, 0.864) url(./img/back3.png) no-repeat center center/cover;
     height: 120vh;
 }
 .red h1{

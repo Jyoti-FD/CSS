@@ -45,7 +45,7 @@ align-items: center;
 padding: 5px;
 }
 .sec1{
-   background: black url(../photo/background.png);
+   background: url(./photo/background.png)no-repeat center center/cover;
    height: 95vh;
 }
 .h1{
@@ -152,7 +152,7 @@ gap: 80px;
     height: 459px;
     width: 700px;
     background-blend-mode: darken;
-    background:rgba(61,95,0,0.52) url(../photo/sandwitch.png);
+    background:rgba(61,95,0,0.52) url(./photo/sandwitch.png);
     align-items: center;
 }
 .due{
@@ -225,7 +225,7 @@ gap: 80px;
     font-family: "Roboto";
 }
 .special{
-    background: rgba(0,0,0,0.5) url(../photo/sale.png) no-repeat;
+    background: rgba(0,0,0,0.5) url(./photo/sale.png) no-repeat center center/cover;
     
     }
 .special h1{
@@ -312,7 +312,7 @@ border-bottom-right-radius: 40px;
     color: #3d5f00;
 }
 .pqr{
-    background: rgba(0,0,0,0.5) url(../photo/poster.png) no-repeat;
+    background: rgba(0,0,0,0.5) url(./photo/poster.png) no-repeat center center/cover;
     
     }
 .pqr h1{

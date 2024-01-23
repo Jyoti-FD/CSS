@@ -1,0 +1,1277 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  background-color: #3c54a0;
+  padding: 20px 20px;
+}
+ul {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+ul li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: aliceblue;
+  text-align: center;
+  font-size: 20px;
+  padding: 7px 13px;
+}
+a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.logo i {
+  font-size: 30px;
+}
+.icons i {
+  font-size: 30px;
+  padding-left: 10px;
+}
+.background {
+  background-color: #f0b52b;
+  height: 91vh;
+  position: relative;
+}
+.image img {
+  position: absolute;
+  bottom: 0px;
+  right: 80px;
+}
+.text h1 {
+  font-size: 108px;
+  color: #3c54a0;
+  position: absolute;
+  top: 120px;
+  left: 280px;
+}
+.text h2 {
+  font-size: 98px;
+  color: #3c54a0;
+  position: absolute;
+  top: 260px;
+  left: 100px;
+}
+.text h4 {
+  font-size: 60px;
+  color: #c8206a;
+  position: absolute;
+  top: 220px;
+  left: 320px;
+}
+.text p {
+  font-size: 17px;
+  color: #c8206a;
+  position: absolute;
+  top: 380px;
+  left: 180px;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+.second {
+  background: url(../07Back_School/img/backimg.png) center/cover no-repeat;
+  height: 100vh;
+  position: relative;
+}
+.text1 h1 {
+  font-size: 120px;
+  color: #c8206a;
+  text-align: center;
+  position: absolute;
+  top: 260px;
+  left: 480px;
+}
+.text1 h2 {
+  font-size: 42px;
+  color: #ffffff;
+  position: absolute;
+  top: 400px;
+  left: 540px;
+}
+.text1 button {
+  background-color: #eaeaea;
+  font-size: 25px;
+  color: #ffffff;
+  text-align: center;
+  width: 200px;
+  height: 62px;
+  border-radius: 34px;
+  background-color: #c8206a;
+  border: none;
+  position: absolute;
+  top: 490px;
+  left: 660px;
+}
+.third {
+  background-color: #f0b52b;
+  height: 100vh;
+  position: relative;
+}
+.box1 {
+  background-color: #3c54a0;
+  height: 330px;
+  width: 370px;
+  position: absolute;
+  top: 180px;
+  left: 400px;
+  border-radius: 90px;
+  border-top-right-radius: 2px;
+}
+.box1 h3 {
+  font-size: 45px;
+  color: #ffffff;
+  position: absolute;
+  top: 70px;
+  left: 90px;
+}
+.box1 p {
+  font-size: 18px;
+  color: #ffffff;
+  letter-spacing: 2px;
+  position: absolute;
+  top: 140px;
+  left: 70px;
+}
+.box2 {
+  background-color: #3c54a0;
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  top: 175px;
+  right: 560px;
+  border-radius: 40px;
+}
+.img1 img {
+  height: 15px;
+  width: 15px;
+  position: absolute;
+  left: 20px;
+  top: 30px;
+}
+.img2 img {
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  left: 45px;
+  top: 45px;
+}
+.img3 img {
+  height: 15px;
+  width: 15px;
+  position: absolute;
+  right: 30px;
+  bottom: 20px;
+}
+.box3 {
+  background-color: #3c54a0;
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  top: 175px;
+  right: 380px;
+  border-radius: 40px;
+}
+.img4 img {
+  width: 12px;
+  position: absolute;
+  right: 30px;
+  top: 28px;
+}
+.img5 img {
+  position: absolute;
+  left: 30px;
+  bottom: 15px;
+}
+.box4 {
+  background-color: #3c54a0;
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  top: 345px;
+  right: 560px;
+  border-radius: 40px;
+}
+.box5 {
+  background-color: #3c54a0;
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  top: 345px;
+  right: 380px;
+  border-radius: 40px;
+}
+.forth {
+  background-color: #f0b52b;
+  height: 100vh;
+  position: relative;
+}
+.line img {
+  width: 54%;
+  position: absolute;
+  left: 300px;
+  bottom: 30px;
+}
+.ball img {
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  top: 25px;
+  left: 770px;
+}
+.ball .pink {
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  top: 5px;
+  left: 770px;
+}
+.earth img {
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  top: 80px;
+  left: 350px;
+}
+.earth .blue {
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  top: 75px;
+  left: 430px;
+}
+.rocket img {
+  height: 90px;
+  width: 60px;
+  position: absolute;
+  bottom: 200px;
+}
+.rocket .blue {
+  width: 9px;
+  height: 9px;
+  position: absolute;
+  bottom: 290px;
+  left: 350px;
+}
+.rocket .purple {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  bottom: 349px;
+  left: 315px;
+}
+.scale img {
+  width: 70px;
+  height: 50px;
+  position: absolute;
+  bottom: 35px;
+  left: 515px;
+}
+.scale .pink {
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  bottom: 82px;
+  left: 530px;
+}
+.scale .star {
+  width: 17px;
+  height: 17px;
+  position: absolute;
+  bottom: 18px;
+  left: 552px;
+}
+.graph img {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  bottom: 45px;
+  left: 780px;
+}
+.can img {
+  width: 50px;
+  height: 70px;
+  position: absolute;
+  bottom: 65px;
+  left: 970px;
+}
+.can .star {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  bottom: 104px;
+  left: 1020px;
+}
+.can .purple {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  bottom: 104px;
+  left: 960px;
+}
+.phone img {
+  width: 45px;
+  height: 68px;
+  position: absolute;
+  bottom: 409px;
+  left: 1050px;
+}
+.purple-star img {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  bottom: 610px;
+  left: 960px;
+}
+.text2 h1 {
+  font-size: 50px;
+  color: #3752a5;
+  text-align: center;
+  position: absolute;
+  bottom: 300px;
+  left: 460px;
+}
+.fifth {
+  background-color: rgb(231, 173, 35);
+  height: 100vh;
+}
+.bugs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 90px;
+  gap: 20px;
+  position: relative;
+}
+.headline h2 {
+  color: #3752a5;
+  font-size: 45px;
+  position: absolute;
+  top: 124px;
+  left: 290px;
+}
+.headline p {
+  color: #3752a5;
+  font-size: 18px;
+  word-spacing: 11px;
+  letter-spacing: 1px;
+  position: absolute;
+  top: 280px;
+  left: 225px;
+}
+.headline-1 h2 {
+  color: #3752a5;
+  font-size: 45px;
+  position: absolute;
+  top: 104px;
+  left: 700px;
+}
+.headline-1 p {
+  color: white;
+  font-size: 18px;
+  word-spacing: 15px;
+  letter-spacing: 1px;
+  position: absolute;
+  top: 280px;
+  left: 605px;
+}
+.headline-2 h2 {
+  color: #3752a5;
+  font-size: 45px;
+  position: absolute;
+  top: 124px;
+  right: 250px;
+}
+.headline-2 p {
+  color: #3752a5;
+  font-size: 18px;
+  word-spacing: 11px;
+  letter-spacing: 1px;
+  position: absolute;
+  top: 280px;
+  right: 210px;
+}
+.shape {
+  position: relative;
+}
+.shape .one {
+  position: absolute;
+  top: 90px;
+  right: 760px;
+}
+.shape .two {
+  position: absolute;
+  top: 90px;
+  right: 750px;
+}
+.sixth {
+  background-color: #f0b52b;
+  height: 100vh;
+  position: relative;
+}
+.girl-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.girl-img img {
+  position: absolute;
+  top: 140px;
+  left: 140px;
+}
+.girl-img h2 {
+  color: #3752a5;
+  font-size: 60px;
+  position: absolute;
+  top: 240px;
+  right: 390px;
+}
+.girl-img p {
+  color: #3752a5;
+  font-size: 25px;
+  word-spacing: 6px;
+  position: absolute;
+  top: 340px;
+  right: 190px;
+}
+.girl-img button {
+  background-color: #3752a5;
+  color: #eaeaea;
+  border-radius: 50px;
+  border: none;
+  padding: 15px 15px 15px 15px;
+  font-size: 20px;
+  position: absolute;
+  top: 500px;
+  right: 600px;
+}
+.seventh {
+  background: rgba(0, 0, 0, 0.4) url(../07Back_School/img/background-2.png)
+    center/cover no-repeat;
+  height: 100vh;
+  background-blend-mode: darken;
+  position: relative;
+}
+.clock {
+  background-color: #3752a5;
+  height: 500px;
+  width: 1200px;
+  opacity: 0.8;
+  border-radius: 80px;
+  position: absolute;
+  top: 100px;
+  left: 150px;
+}
+.time {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  padding-top: 200px;
+}
+.time h2 {
+  font-size: 70px;
+  color: #f0b52b;
+}
+.day {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+  font-size: 26px;
+  color: #f0b52b;
+  padding-left: 24px;
+}
+.eighth {
+  background-color: #f0b52b;
+  height: 100vh;
+}
+.display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+  padding-top: 200px;
+}
+.display img {
+  height: 100px;
+}
+.disply-1 img {
+  transform: rotate3d(5, 9, 9, 320deg);
+}
+.display .note {
+  padding-top: 40px;
+}
+.note h3 {
+  font-size: 35px;
+  color: #3c54a0;
+}
+.note p {
+  color: #3c54a0;
+  font-size: 15px;
+  word-spacing: 4px;
+  letter-spacing: 1px;
+}
+.more {
+  background-color: #f0b52b;
+  height: 400px;
+  position: relative;
+}
+.more h3 {
+  font-size: 55px;
+  color: #3c54a0;
+  text-align: center;
+}
+.more p {
+  font-size: 30px;
+  color: #3c54a0;
+  text-align: center;
+  word-spacing: 4px;
+}
+.more input[type="text"] {
+  height: 40px;
+  width: 500px;
+  padding-left: 20px;
+  font-size: 20px;
+  position: absolute;
+  left: 500px;
+  bottom: 170px;
+  border: none;
+  border-radius: 20px;
+}
+.footer {
+  background-color: #3c54a0;
+  height: 500px;
+  position: relative;
+}
+.details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+  padding-top: 80px;
+}
+.about ul {
+  font-size: 65px;
+  line-height: 38px;
+  display: block;
+}
+
+.about ul li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.about ul li a {
+  font-size: 25px;
+}
+.contect {
+  color: #ffffff;
+}
+.contect h3 {
+  font-size: 30px;
+}
+.contect p {
+  font-size: 20px;
+  word-spacing: 12px;
+  letter-spacing: 1px;
+}
+.rect img {
+  position: absolute;
+  top: 350px;
+  left: 170px;
+}
+.insta {
+  font-size: 30px;
+  position: absolute;
+  top: 370px;
+  right: 220px;
+}
+@media screen and (max-width: 1400px) {
+  .third {
+    position: relative;
+  }
+  .box2 {
+    position: absolute;
+    right: 450px;
+  }
+  .box3 {
+    position: absolute;
+    right: 280px;
+  }
+  .box4 {
+    position: absolute;
+    right: 450px;
+  }
+  .box5 {
+    position: absolute;
+    right: 280px;
+  }
+  .forth {
+    position: relative;
+  }
+  .line img {
+    position: absolute;
+    bottom: 150px;
+  }
+  .ball img {
+    position: absolute;
+    top: 140px;
+    left: 700px;
+  }
+  .ball .pink {
+    position: absolute;
+    top: 115px;
+    left: 670px;
+  }
+  .earth img {
+    position: absolute;
+    top: 220px;
+  }
+  .earth .blue {
+    position: absolute;
+    top: 205px;
+  }
+  .rocket img {
+    position: absolute;
+    bottom: 300px;
+  }
+  .rocket .blue {
+    position: absolute;
+    bottom: 390px;
+  }
+  .rocket .purple {
+    position: absolute;
+    bottom: 450px;
+  }
+  .scale img {
+    position: absolute;
+    bottom: 155px;
+  }
+  .scale .pink {
+    position: absolute;
+    bottom: 200px;
+  }
+  .scale .star {
+    position: absolute;
+    bottom: 148px;
+  }
+  .graph img {
+    position: absolute;
+    bottom: 155px;
+  }
+  .can img {
+    position: absolute;
+    bottom: 230px;
+  }
+  .can .star {
+    position: absolute;
+    bottom: 260px;
+  }
+  .can .purple {
+    position: absolute;
+    bottom: 264px;
+  }
+  .phone img {
+    position: absolute;
+    bottom: 509px;
+    left: 995px;
+  }
+  .purple-star img {
+    position: absolute;
+    bottom: 680px;
+    left: 910px;
+  }
+  .text2 h1 {
+    font-size: 50px;
+    color: #3752a5;
+    text-align: center;
+    position: absolute;
+    bottom: 300px;
+    left: 460px;
+  }
+  .fifth {
+    background-color: rgb(231, 173, 35);
+    height: 100vh;
+  }
+  .bugs {
+    padding-top: 190px;
+    position: relative;
+  }
+  .headline h2 {
+    position: absolute;
+    top: 220px;
+    left: 240px;
+  }
+  .headline p {
+    position: absolute;
+    top: 370px;
+    left: 160px;
+  }
+  .headline-1 h2 {
+    position: absolute;
+    top: 210px;
+    left: 645px;
+  }
+  .headline-1 p {
+    position: absolute;
+    top: 370px;
+    left: 535px;
+  }
+  .headline-2 h2 {
+    position: absolute;
+    top: 220px;
+    right: 200px;
+  }
+  .headline-2 p {
+    position: absolute;
+    top: 370px;
+  right: 150px;
+  }
+  .shape {
+    position: relative;
+  }
+  .shape .one {
+    position: absolute;
+    top: 70px;
+    right: 740px;
+  }
+  .shape .two {
+    position: absolute;
+    top: 70px;
+    right: 730px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .box1 {
+    position: absolute;
+    left: 150px;
+  }
+  .forth {
+    position: relative;
+  }
+  /* .ball img {
+    position: absolute;
+    top: 140px;
+    left: 700px;
+  }
+  .ball .pink {
+    position: absolute;
+    top: 115px;
+    left: 670px;
+  }
+  .earth img {
+    position: absolute;
+    top: 220px;
+  }
+  .earth .blue {
+    position: absolute;
+    top: 205px;
+  }
+  .rocket img {
+    position: absolute;
+    bottom: 300px;
+  }
+  .rocket .blue {
+    position: absolute;
+    bottom: 390px;
+  }
+  .rocket .purple {
+    position: absolute;
+    bottom: 450px;
+  }
+  .scale img {
+    position: absolute;
+    bottom: 155px;
+  }
+  .scale .pink {
+    position: absolute;
+    bottom: 200px;
+  }
+  .scale .star {
+    position: absolute;
+    bottom: 148px;
+  }
+  .graph img {
+    position: absolute;
+    bottom: 155px;
+  }
+  .can img {
+    position: absolute;
+    bottom: 230px;
+  }
+  .can .star {
+    position: absolute;
+    bottom: 260px;
+  }
+  .can .purple {
+    position: absolute;
+    bottom: 264px;
+  }
+  .phone img {
+    position: absolute;
+    bottom: 509px;
+    left: 995px;
+  }
+  .purple-star img {
+    position: absolute;
+    bottom: 680px;
+    left: 910px;
+  }
+  .text2 h1 {
+    font-size: 50px;
+    color: #3752a5;
+    text-align: center;
+    position: absolute;
+    bottom: 300px;
+    left: 460px;
+  }
+  .fifth {
+    background-color: rgb(231, 173, 35);
+    height: 100vh;
+  }
+  .bugs {
+    padding-top: 190px;
+    position: relative;
+  }
+  .headline h2 {
+    position: absolute;
+    top: 220px;
+    left: 240px;
+  }
+  .headline p {
+    position: absolute;
+    top: 370px;
+    left: 160px;
+  }
+  .headline-1 h2 {
+    position: absolute;
+    top: 210px;
+    left: 645px;
+  }
+  .headline-1 p {
+    position: absolute;
+    top: 370px;
+    left: 535px;
+  }
+  .headline-2 h2 {
+    position: absolute;
+    top: 220px;
+    right: 200px;
+  }
+  .headline-2 p {
+    position: absolute;
+    top: 370px;
+  right: 150px;
+  }
+  .shape {
+    position: relative;
+  }
+  .shape .one {
+    position: absolute;
+    top: 70px;
+    right: 740px;
+  }
+  .shape .two {
+    position: absolute;
+    top: 70px;
+    right: 730px;
+  } */
+
+}
+@media screen and (max-width: 992px) {
+    ul {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 30%;
+      background-color: #3c54a0;
+      display: block;
+      text-align: center;
+      opacity: 0.89;
+    }
+    input[type="checkbox"]:checked + nav ul {
+      display: none;
+    }
+    ul li {
+      padding-top: 50px;
+    }
+    .icons i {
+      font-size: 20px;
+      padding: 20px 0px 20px 10px;
+    }
+    .image img {
+      height: 400px;
+      position: absolute;
+      bottom: 0px;
+      right: -90px;
+    }
+    .text h1 {
+      font-size: 50px;
+      position: absolute;
+      top: 110px;
+      left: 50px;
+    }
+    .text h2 {
+      font-size: 50px;
+      position: absolute;
+      top: 190px;
+      left: 50px;
+    }
+    .text h4 {
+      font-size: 30px;
+      position: absolute;
+      top: 160px;
+      left: 150px;
+    }
+    .text p {
+      font-size: 15px;
+      position: absolute;
+      top: 310px;
+      left: 40px;
+    }
+}
+/* @media screen and (max-width: 576px) {
+  ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 30%;
+    background-color: #3c54a0;
+    display: block;
+    text-align: center;
+    opacity: 0.89;
+  }
+  input[type="checkbox"]:checked + nav ul {
+    display: none;
+  }
+  ul li {
+    padding-top: 50px;
+  }
+  .icons i {
+    font-size: 20px;
+    padding: 20px 0px 20px 10px;
+  }
+  .image img {
+    height: 400px;
+    position: absolute;
+    bottom: 0px;
+    right: -90px;
+  }
+  .text h1 {
+    font-size: 50px;
+    position: absolute;
+    top: 110px;
+    left: 50px;
+  }
+  .text h2 {
+    font-size: 50px;
+    position: absolute;
+    top: 190px;
+    left: 50px;
+  }
+  .text h4 {
+    font-size: 30px;
+    position: absolute;
+    top: 160px;
+    left: 150px;
+  }
+  .text p {
+    font-size: 15px;
+    position: absolute;
+    top: 310px;
+    left: 40px;
+  }
+  .second {
+    position: relative;
+  }
+  .text1 h1 {
+    font-size: 50px;
+    position: absolute;
+    top: 260px;
+    left: 150px;
+  }
+  .text1 h2 {
+    font-size: 40px;
+    position: absolute;
+    top: 330px;
+    left: 150px;
+  }
+  .text1 button {
+    position: absolute;
+    top: 440px;
+    left: 150px;
+  }
+  .third {
+    position: relative;
+  }
+  .box1 {
+    height: 230px;
+    width: 270px;
+    position: absolute;
+    left: 20px;
+    border-radius: 50px;
+    border-top-right-radius: 5px;
+  }
+  .box1 h3 {
+    font-size: 35px;
+    position: absolute;
+    top: 30px;
+    left: 80px;
+  }
+  .box1 p {
+    font-size: 15px;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+  }
+  .box2 {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 175px;
+    right: 170px;
+  }
+  .img1 img {
+    position: absolute;
+    left: 15px;
+    top: 20px;
+  }
+  .img2 img {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    left: 30px;
+    top: 28px;
+  }
+  .img3 img {
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+  }
+  .box3 {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 175px;
+    right: 50px;
+  }
+  .img4 img {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+  }
+  .img5 img {
+    position: absolute;
+    left: 20px;
+    bottom: 6px;
+  }
+  .box4 {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 295px;
+    right: 170px;
+  }
+  .box5 {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 295px;
+    right: 50px;
+  }
+  .forth {
+    position: relative;
+  }
+  .line img {
+    width: 500px;
+    position: absolute;
+    left: 40px;
+    bottom: 200px;
+  }
+  .ball img {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    left: 300px;
+  }
+  .ball .pink {
+    position: absolute;
+    top: 10px;
+    left: 270px;
+  }
+  .earth img {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 70px;
+    left: 80px;
+  }
+  .earth .blue {
+    position: absolute;
+    top: 65px;
+    left: 130px;
+  }
+  .rocket img {
+    height: 90px;
+    width: 60px;
+    position: absolute;
+    bottom: 250px;
+    left: 20px;
+  }
+  .rocket .blue {
+    position: absolute;
+    bottom: 330px;
+    left: 80px;
+  }
+  .rocket .purple {
+    position: absolute;
+    bottom: 390px;
+    left: 50px;
+  }
+  .scale img {
+    width: 70px;
+    height: 50px;
+    position: absolute;
+    bottom: 190px;
+    left: 115px;
+  }
+  .scale .pink {
+    position: absolute;
+    bottom: 240px;
+    left: 130px;
+  }
+  .scale .star {
+    position: absolute;
+    bottom: 158px;
+    left: 160px;
+  }
+  .graph img {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    bottom: 200px;
+    left: 310px;
+  }
+  .can img {
+    width: 50px;
+    height: 70px;
+    position: absolute;
+    bottom: 205px;
+    left: 450px;
+  }
+  .can .star {
+    position: absolute;
+    bottom: 250px;
+    left: 500px;
+  }
+  .can .purple {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    bottom: 250px;
+    left: 440px;
+  }
+  .phone img {
+    width: 35px;
+    height: 48px;
+    position: absolute;
+    bottom: 440px;
+    left: 500px;
+  }
+  .purple-star img {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    bottom: 550px;
+    left: 450px;
+  }
+  .text2 h1 {
+    font-size: 30px;
+    position: absolute;
+    bottom: 350px;
+    left: 150px;
+  }
+  .bugs {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0px;
+    position: relative;
+  }
+  .bugs img {
+    height: 200px;
+    width: 200px;
+  }
+  .headline h2 {
+    color: #3752a5;
+    font-size: 45px;
+    position: absolute;
+    top: 124px;
+    left: 290px;
+  }
+  .headline p {
+    color: #3752a5;
+    font-size: 18px;
+    word-spacing: 11px;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 280px;
+    left: 225px;
+  }
+  .headline-1 h2 {
+    color: #3752a5;
+    font-size: 45px;
+    position: absolute;
+    top: 104px;
+    left: 700px;
+  }
+  .headline-1 p {
+    color: white;
+    font-size: 18px;
+    word-spacing: 15px;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 280px;
+    left: 605px;
+  }
+  .headline-2 h2 {
+    color: #3752a5;
+    font-size: 45px;
+    position: absolute;
+    top: 124px;
+    right: 250px;
+  }
+  .headline-2 p {
+    color: #3752a5;
+    font-size: 18px;
+    word-spacing: 11px;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 280px;
+    right: 210px;
+  }
+  .shape {
+    position: relative;
+  }
+  .shape .one {
+    position: absolute;
+    top: 90px;
+    right: 760px;
+  }
+  .shape .two {
+    position: absolute;
+    top: 90px;
+    right: 750px;
+  }
+} */
